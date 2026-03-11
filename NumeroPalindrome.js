@@ -9,9 +9,11 @@ function isPalindrome(number){
     const lastDigit = number % 10;
     reverseNumber = reverseNumber * 10;
     reverseNumber = reverseNumber + lastDigit;
-    number = number - lastDigit;
+    number = number - lastDigit; 
     number = number / 10;
   }
+  console.log(original)
+  console.log(reverseNumber)
 }
 
 isPalindrome(123);
